@@ -1,5 +1,5 @@
 body {
-    background: rgb(170, 104, 170);
+    background: rgb(20, 92, 226);
     font: normal 15pt Arial;
 }
 
@@ -21,4 +21,18 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+input {
+    font-size: 13px;
+    width: 100px;
+    text-align: center;
+}
+
+select {
+    width: 100px;
+    height: 150px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
 }
