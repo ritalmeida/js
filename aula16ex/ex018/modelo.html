@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Análise de Números</h1>
+    </header>
+    <section>
+        <div>
+            Número (entre 0 e 100): <input type="number" id="num"  min="0" max="100"></input>
+            <button onclick="adicionarNumero()">Adicionar</button>
+        </div>
+        <div>
+            <select name="numeros" id="numeros" size="10"></select>
+        </div>
+        <div>
+            <button onclick="finalizar()">Finalizar</button>
+        </div>
+        <div id="resultado">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Rita Almeida</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
